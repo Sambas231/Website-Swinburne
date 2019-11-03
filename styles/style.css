@@ -1,0 +1,566 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+/*
+101229262 MARCUS MARRIO ANAK NIKOL
+filename: [ASSIGNMENT 1 CSS]
+author: [101229262 MARCUS MARRIO ANAK NIKOL]
+created: [29/09/2019]
+last modified: [04/10/2019]
+description: [ASSIGNMENT 1 CSS STYLING]
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Lato, sans-serif;
+	background: #F5F5F5;
+}
+
+nav {
+	min-height: 60px;
+	width: 100%;
+	background: #4A77DF;
+}
+
+nav * {
+	font-size: 100% !important;
+	color: #FFFFFF;
+}
+
+nav .logo {
+	display: block;
+	height: 96%;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav .logo span {
+	display: inline-block;
+	padding: 0 10px 0 10px;
+	line-height: 55px;
+}
+
+nav .logo:visited {
+	color: white;
+}
+
+nav .nav-element {
+	display: block;
+	height: 96%;
+	float: right;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav .nav-element span {
+	display: inline-block;
+	padding: 0 10px 0 10px;
+	line-height: 55px;
+}
+
+nav .nav-element:visited {
+	color: white;
+}
+
+nav .nav-element:hover {
+	color: #02AF87;
+	border-bottom: 3px solid #02AF87;
+}
+
+nav .nav-element:hover span {
+	color: #02AF87;
+}
+
+nav .nav-element:not(:first-child)::after {
+	content: "|";
+}
+
+aside,
+section {
+	margin: 25px 0 25px 0;
+}
+
+.button-interact {
+	display: inline-block;
+	text-decoration: none;
+	background: #1E90FF;
+	color: white !important;
+	text-transform: uppercase;
+	min-width: 75px;
+	min-height: 20px;
+	padding: 10px;
+	text-align: center;
+	margin: 5px;
+}
+
+.button-interact:hover,
+.button-interact:visited,
+.button-interact:active {
+	color: white;
+}
+
+.section-text {
+	color: #4A77DF;
+	margin: 25px 0 25px 0;
+	text-transform: uppercase;
+}
+
+.section-text:before {
+	content: "- ";
+}
+
+.section-text:after {
+	content: " -";
+}
+
+.header-welcome {
+	position: relative;
+	height: 250px;
+	width: 100%;
+	margin-bottom: 20px;
+	background: url(./images/header.jpeg); /* Image source from Medium - How Technology Has Changed Access to Transportation: https://miro.medium.com/max/5564/1*ePj3LkPSMlDpUQld8Xy5fA.jpeg */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.header-welcome .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.header-welcome .container {
+	padding: 25px;
+	border: 1px solid white;
+	transform: translate(0%, 5%);
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.container .col {
+	display: inline-block;
+	max-width: 400px;
+	min-height: 100px;
+	margin: 5px 30px 30px 5px;
+	padding: 0;
+	color: white;
+	text-align: justify;
+	vertical-align: top;
+}
+
+.container .col-narrow {
+	display: inline-block;
+	width: 300px;
+	min-height: 100px;
+	margin: 5px;
+	padding: 0;
+	color: white;
+	text-align: justify;
+	vertical-align: top;
+}
+
+.container .row {
+	display: inline-block;
+	width: 90%;
+}
+
+.white-header {
+	color: white;
+}
+
+.width-extend {
+	width: 90%;
+}
+
+.card {
+	display: inline-block;
+	width: 300px;
+	max-width: 400px;
+	min-height: 200px;
+	margin: 5px 15px 15px 5px;
+	padding: 0;
+	border-radius: 2px;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+	position: relative;
+	width: 100%;
+	height: 150px;
+	background: #4A77DF;
+}
+
+.card-header img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.card-body {
+	margin: 10px;
+	padding: 5px;
+}
+
+.card-body .title {
+	color: #02AF87;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.card-body .divider {
+	width: 50%;
+}
+
+.card-body .description {
+	text-align: justify;
+	text-indent: 25px;
+}
+
+.card:last-child {
+	clear: both;
+}
+
+.section-divider {
+	width: 90%;
+	margin: 30px auto;
+	color: lightgrey;
+}
+
+.left {
+	float: left !important;
+}
+
+.right {
+	float: right !important;
+}
+
+.article-catalog {
+	display: inline-block;
+	padding: 0;
+	width: 75%;
+	min-height: 250px;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.article-catalog .img-container {
+	position: relative;
+	min-height: 250px;
+	max-height: 100%;
+	width: 30%;
+	float: left;
+}
+
+.article-catalog .img-container img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.article-catalog .article-body {
+	float: left;
+	width: 65%;
+	text-align: justify;
+	margin: 10px 10px 10px 20px;
+}
+
+.article-catalog .article-body .title {
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: #02AF87;
+}
+
+footer {
+	background: #4A77DF;
+	width: 100%;
+	min-height: 300px;
+	clear: both;
+}
+
+footer * {
+	color: white !important;
+	font-size: 100% !important;
+}
+
+footer #map {
+	width: 100%;
+	height: 300px;
+	border: 0;
+}
+
+/*
+Marcus Marrio's part end
+*/
+
+/******
+
+  This is the start of Bryan's CSS
+
+******/
+
+.core {
+	width: 75%;
+	margin: 0 auto;
+  }
+  
+  .heading-1 {
+	font-size: 200%;
+	text-align: center;
+	margin: 1.5rem auto;
+  }
+  
+  .heading-2 {
+	font-size: 170%;
+	text-align: center;
+	color: #4a77df
+  }
+  
+  .welcome-heading {
+	display: inline-block;
+	letter-spacing: 0.15rem;
+	border-bottom: 3px solid #4a77df;
+	color: #4a77df;
+  }
+  
+  .welcome p {
+	margin-top: -0.2rem;
+	font-weight: 300;
+  }
+  
+  .about-p {
+	display: inline-block;
+	text-align: justify;
+  }
+  
+  .section-about img {
+	border: 1px solid #ddd;
+	padding: 5px;
+	margin: auto;
+	border-radius: 100%;
+  }
+  
+  .section-about img:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  
+  .section-core {
+	border: 0 solid white;
+	border-radius: 8px;
+	background-color: #fff;
+	box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2);
+	padding: 24px;
+	margin: 1.5rem 0;
+  }
+  
+  .section-about {
+	background-color: #fff;
+	padding: 1.5rem;
+	margin: 1.5rem auto;
+  }
+  
+  .section-about section {
+	text-align: center;
+  }
+  
+  .team-images {
+	display: block;
+	border-style: groove;
+	padding: 20px;
+	margin: 0 auto;
+	border-radius: 10%;
+  }
+  
+  .table {
+	font-size: 1.1rem;
+	padding: 0;
+	width: 100%;
+	border-spacing: 2rem;
+	text-align: center;
+  }
+  
+  .table td {
+	margin: 0 10%;
+  }
+  
+  .box {
+	display: inline-block;
+	width: 2.75%;
+	line-height: 1;
+  }
+  
+  .web {
+	background-color: rgb(98,110,123);
+  }
+  
+  .intro {
+	background-color: rgb(25,158,183);
+  }
+  
+  .logic {
+	background-color: rgb(25,158,183);
+  }
+  
+  .network {
+	background-color: rgb(55,153,209);
+  }
+  
+  .business {
+	background-color: #A37BE4;
+  }
+  
+  .project {
+	background-color: #F9604F;
+  }
+  
+  .list-profile {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	line-height: 2;
+  }
+  
+  .courses {
+	width: 95%;
+	margin: 0 auto;
+	text-align: left;
+  }
+  
+  .courses li {
+	margin-left: 10%;
+  }
+  
+  .table-th {
+	padding-top: 1%;
+	vertical-align: top;
+	font-size: 1.3rem;
+  }
+  
+  .contribution {
+	border-collapse: collapse;
+  }
+  
+  .contribution th, .contribution td {
+	border: 1px solid black;
+  }
+  
+  .contribution th {
+	background-color: #4A77DF;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	width: 34%;
+  }
+  
+  .profile-footer-div {
+	padding: 3%;
+  }
+  
+  .profile-footer {
+	text-align: center;
+  }
+  
+  /******
+  
+	This is the end of Bryan's CSS
+  
+  ******/
+
+/******
+
+  This is the start of kuan sze khai's CSSy
+
+******/
+/*
+align the content to middle and add color together with box shadow*/
+.Main-Wrapper{
+	width: 90%;
+	height: 100%;
+	background-color:#FFF;
+	margin:30px auto;
+	box-shadow: 0 0 0 1px rgba(0,0,0,.15),0 2px 3px rgba(0,0,0,.2);
+}
+
+.heading-style{
+	text-align: center;
+	font-size:4.5rem;
+	color:#8080ff;
+}
+
+/*set the overall width for form*/
+.Form-wrapper{
+	width: 80%;
+	height:100%;
+	margin:10px auto;
+}
+
+/*adjust input and select width*/
+.Form-wrapper input, .Form-wrapper select{
+	width: 90%;
+	padding:8px 15px;
+    box-sizing: border-box;
+}
+
+/*assign width so it can align both left and right side*/
+.form-style{
+	width:45%;
+	padding:8px 0;
+}
+
+.move-left{
+	float: left;
+}
+
+.move-right{
+	float: right;
+}
+
+/*fieldset style*/
+.fieldset-wrapper{
+	max-width: 90%;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-top:30%;
+}
+legend{
+	text-align: center;
+	font-size: 20px;
+}
+
+textarea{
+	width:90%;
+	padding: 20px;
+}
+/*set submit button style*/
+#Btn-style input[type='submit']{
+	width: 88px;
+	height: 38px;
+	padding: 9px 12px;
+	margin: 20px 0;
+	text-align: center;
+}
+
+/*disclamer content padding & font size*/
+.disclamer-container{
+	padding:40px;
+	font-size:20px;
+}
+
+/*limit the disclamer images*/
+.disclamer-container img{
+	width: 50%;
+	height:100%;
+	padding-bottom: 30px;
+}
+
+/*Kuan Sze Khai css end here*/

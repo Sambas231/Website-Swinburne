@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta charset="UTF-8"/>
+	<title>Disclaimer</title>
+	<link rel="stylesheet" type="text/css" href="./styles/style.css"/>
+	<link rel="stylesheet" type="text/css" href="./styles/mobile.css"/>
+</head>
+<body>
+<header>
+	<h1 class="heading-style">Disclamer</h1>
+</header>
+<div class="Main-Wrapper">
+	<div class="disclamer-container">
+		<article>
+			<figure>
+				<img src="./images/Copyright.png" alt="Copyright-img"/>
+			</figure>
+		<p>
+			This website is created mainly for educational and non-commercial use only. It is a partial fulfilment for completion of unit COS10011 - Creating Web Applications offered in Swinburne University of Technology, Sarawak Campus for Semester 1, Year 1.
+		</p>
+		<p>
+			The web-master and author(s) do not represent the business entity.
+		</p>
+			
+		<p>
+			The content of the pages of this website might be out-dated or inaccurate, thus, the author(s) and web-master does not take any responsibility for incorrect information disseminate or cited from this website.
+		</p>
+
+		<p>
+			If you believe that information of any kind on this website is an infringement of copyright in material in which you either own copyright or are authorized to exercise the rights of a copyright owner, kindly contact the webmaster <a href="mailto:101225749@students.swinburne.edu.my">the ethernals</a>for removal.
+		</p>
+		</article>
+	</div>
+</div>
+  <footer>
+	<a href="./product1.html" class="button-interact">Go back to product page</a>
+	<a href="./index.html" class="button-interact">Back to Homepage</a>
+        <div class="container">
+            <div class="col">
+                <h3>The Eternals</h3>
+                <p>The Eternals is a brand new online car rental company established on the mid-term of 2019. The business was started by four person-a,b,c,d. Our journey began when one of our founder Marcus encounter an issue about the inconvenience of renting a car in kuching. An issue has caught his attention and ignite the idea for him to start this business.</p>
+            </div>
+            <div class="col">
+                <h4>Best Showtime! Come visit our link!</h4>
+                <a href="./about-us.html" class="button-interact">Let us introduce ourselves</a>
+                <a href="./enhancement.html" class="button-interact">Our Enhancements</a>
+            </div>
+            <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.3916572792045!2d110.35503721526996!3d1.5322679613877659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fba70b11e02ce7%3A0x69cbf290cfd24bb7!2sSwinburne%20University%20of%20Technology%20Sarawak%20Campus!5e0!3m2!1sen!2smy!4v1569668038254!5m2!1sen!2smy" id="map" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

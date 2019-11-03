@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="styles/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400&amp;display=swap" rel="stylesheet"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Gordon Surein Raj</title>
+  </head>
+  <body>
+
+    <header>
+        <nav>
+            <a class="logo" href="index.html">
+                <span>ETERNAL CAR RENTALS</span>
+            </a>
+            <a href="#logo" class="nav-element">
+                <span>Talk to Us</span>
+            </a>
+            <a href="#logo" class="nav-element">
+                <span>About Us</span>
+            </a>
+            <a href="#logo" class="nav-element">
+                <span>Rent A Car</span>
+            </a>
+            <a href="#logo" class="nav-element">
+                <span>Home</span>
+            </a>
+        </nav>
+    </header>
+
+    <section class="core">
+      <h1 class="heading-1">Gordon Surein Raj</h1>
+      <img class="team-images" src="images/Gordon.jpg" alt="Gordon's Picture"/>
+
+      <section class="section-core personal-details">
+        <h2 class="heading-2">Personal Details</h2>
+        <table class="table">
+          <tr>
+            <th class="table-th">Student ID</th>
+            <td>4304713</td>
+          </tr>
+          <tr>
+            <th class="table-th">Courses</th>
+            <td>
+              <ul class="courses list-profile">
+                <li><span class="box web">&#160;</span> COS10011 CREATING WEB APPLICATIONS</li>
+                <li><span class="box intro">&#160;</span> COS10011 INTRODUCTION TO PROGRAMMING</li>
+                <li><span class="box logic">&#160;</span> COS10003 COMPUTER AND LOGIC ESSENTIALS</li>
+                <li><span class="box network">&#160;</span> TNE10006 NETWORKS AND SWITCHING</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th class="table-th">Nationality</th>
+            <td>Malaysian</td>
+          </tr>
+          <tr>
+            <th class="table-th">Date of Birth</th>
+            <td>12 November 1996</td>
+          </tr>
+          <tr>
+            <th class="table-th">Hobbies</th>
+            <td>
+              <ul class="list-profile">
+                <li>Reading</li>
+                <li>Researching</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="section-core">
+        <h2 class="heading-2">Contributions</h2>
+        <table class="contribution table">
+          <tr>
+            <th class="table-th">Team Member</th>
+            <th class="table-th">Contribution (%)</th>
+            <th class="table-th">List of Contribution</th>
+          </tr>
+          <tr>
+            <td>Gordon Surein Raj</td>
+            <td>25%</td>
+            <td>
+              <ul class="list-profile">
+                <li>xxxx</li>
+                <li>xxxx</li>
+                <li>xxxx</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </section>
+    </section>
+
+    <footer class="profile-footer">
+      <div class="container">
+          <div class="profile-footer-div">
+            <a class="" href="mailto:101229576@students.swinburne.edu.my" target="_blank">Email me</a>
+          </div>
+          <div class="col">
+              <h3>The Eternals</h3>
+              <p>The Eternals is a brand new online car rental company established on the mid-term of 2019. The business was started by four person-a,b,c,d. Our journey began when one of our founder Marcus encounter an issue about the inconvenience of renting a car in kuching. An issue has caught his attention and ignite the idea for him to start this business.</p>
+          </div>
+          <div class="col">
+              <h4>Best Showtime! Come visit our link!</h4>
+              <a href="#">Click here!</a>
+          </div>
+          <div class="col">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.3916572792045!2d110.35503721526996!3d1.5322679613877659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fba70b11e02ce7%3A0x69cbf290cfd24bb7!2sSwinburne%20University%20of%20Technology%20Sarawak%20Campus!5e0!3m2!1sen!2smy!4v1569668038254!5m2!1sen!2smy" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/style.css"></link>
+    <title>Home | Eternals Car Rental</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="index.html">
+                <span>ETERNAL CAR RENTALS</span> 
+            </a>
+            <a href="#logo" class="nav-element">
+                <span>Talk to Us</span>
+            </a>
+            <a href="#logo" class="nav-element">
+                <span>About Us</span>
+            </a>
+            <a href="#logo" class="nav-element">
+                <span>Rent A Car</span>
+            </a>
+            <a href="index.html" class="nav-element">
+		<span>Home</span>
+			</a>       
+        </nav>
+        <div class="header-welcome">
+            <div class="overlay">
+                <div class="container">
+                    <h2 class="white-header">We only deliver the best</h2>
+                    <form action="#">
+                        <div class="col-narrow">
+                            <label for="type_of_car">Type of car: <br />
+                                <input type="text" class="width-extend" id="type_of_car" name="type_of_car" />
+                            </label>
+                            <label for="location">Location: <br />
+                                <input type="text" class="width-extend" id="location" name="location" />
+                            </label>
+                        </div>
+                        <div class="col-narrow">
+                            <label for="room">Room: <br />
+                                <input type="text" class="width-extend" id="room" name="room" />
+                            </label>
+                            <label for="return">Return: <br />
+                                <input type="text" class="width-extend" id="return" name="return" />
+                            </label>
+                        </div>
+                        <div class="col-narrow">
+                            <label for="transmission">Transmission: <br />
+                                <input type="text" class="width-extend" id="transmission" name="transmission" />
+                            </label>
+                            <label for="pickup">Pickup: <br />
+                                <input type="text" class="width-extend" id="pickup" name="pickup" />
+                            </label>
+                        </div>
+                        <div class="row">
+                                <button type="submit" class="button-transparent">BOOK NOW!</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+	<!--Section where you can put anything start-->
+    <section class="container">
+        <h1 class="section-text">Our Fleet</h1>
+
+        <div class="card">
+            <div class="card-header">
+                <img src="./images/header.jpeg" alt="" />
+            </div>
+            <div class="card-body">
+                <div class="title">
+                    <h2>Please Yourself</h2>
+                </div>
+                <hr class="divider" />
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse gravida tristique dui, sed porttitor felis ornare quis. Vestibulum molestie, enim sed pulvinar iaculis, ipsum felis congue felis, ac ultrices sem metus at ipsum. Duis ac viverra erat. In finibus nisl id aliquam venenatis. In ultricies lobortis mattis. In ex elit, iaculis eu ex ac, tincidunt blandit augue. Nam lobortis urna in diam consequat rhoncus. Donec non augue metus. Nulla vitae consequat est. Praesent molestie augue in enim efficitur, id bibendum dui vulputate. Sed tincidunt finibus lacus ut consectetur. 
+                </p>
+                <hr class="divider" />
+                <a href="#" class="button-interact">Have a look</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <img src="./images/header.jpeg" alt="" />
+            </div>
+            <div class="card-body">
+                <div class="title">
+                    <h2>Please Yourself</h2>
+                </div>
+                <hr class="divider" />
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse gravida tristique dui, sed porttitor felis ornare quis. Vestibulum molestie, enim sed pulvinar iaculis, ipsum felis congue felis, ac ultrices sem metus at ipsum. Duis ac viverra erat. In finibus nisl id aliquam venenatis. In ultricies lobortis mattis. In ex elit, iaculis eu ex ac, tincidunt blandit augue. Nam lobortis urna in diam consequat rhoncus. Donec non augue metus. Nulla vitae consequat est. Praesent molestie augue in enim efficitur, id bibendum dui vulputate. Sed tincidunt finibus lacus ut consectetur. 
+                </p>
+                <hr class="divider" />
+                <a href="#" class="button-interact">Have a look</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <img src="./images/header.jpeg" alt="" />
+            </div>
+            <div class="card-body">
+                <div class="title">
+                    <h2>Please Yourself</h2>
+                </div>
+                <hr class="divider" />
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse gravida tristique dui, sed porttitor felis ornare quis. Vestibulum molestie, enim sed pulvinar iaculis, ipsum felis congue felis, ac ultrices sem metus at ipsum. Duis ac viverra erat. In finibus nisl id aliquam venenatis. In ultricies lobortis mattis. In ex elit, iaculis eu ex ac, tincidunt blandit augue. Nam lobortis urna in diam consequat rhoncus. Donec non augue metus. Nulla vitae consequat est. Praesent molestie augue in enim efficitur, id bibendum dui vulputate. Sed tincidunt finibus lacus ut consectetur. 
+                </p>
+                <hr class="divider" />
+                <a href="#" class="button-interact">Have a look</a>
+            </div>
+        </div>
+    </section>
+    <hr class="section-divider" />
+    <aside>
+        <div class="container">
+            <h1 class="section-text">Read Our Articles</h1>
+
+            <div class="article-catalog">
+                <div class="img-container">
+                    <img src="./images/header.jpeg" alt="ar1" />
+                </div>
+                <div class="article-body">
+                    <h4 class="title">Another one bites the dust</h4>
+                    <p>Donec et facilisis tortor. Curabitur quis porta justo. Integer tincidunt commodo risus, nec semper sem vestibulum eu. Vestibulum fringilla mauris id porta ultrices. Aenean finibus facilisis risus nec ultrices. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi in vestibulum nibh. Vivamus mattis elementum dui eu malesuada. Cras iaculis eu purus sed hendrerit. Praesent leo massa, volutpat semper est pellentesque, tincidunt dapibus felis. Aliquam eu laoreet lorem. </p>
+                    <a href="#" class="button-interact left">Read</a>
+                </div>
+            </div>
+            <div class="article-catalog">
+                <div class="img-container right">
+                    <img src="./images/header.jpeg" alt="ar1" />
+                </div>
+                <div class="article-body">
+                    <h4 class="title">Another one bites the dust</h4>
+                    <p>Donec et facilisis tortor. Curabitur quis porta justo. Integer tincidunt commodo risus, nec semper sem vestibulum eu. Vestibulum fringilla mauris id porta ultrices. Aenean finibus facilisis risus nec ultrices. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi in vestibulum nibh. Vivamus mattis elementum dui eu malesuada. Cras iaculis eu purus sed hendrerit. Praesent leo massa, volutpat semper est pellentesque, tincidunt dapibus felis. Aliquam eu laoreet lorem. </p>
+                    <a href="#" class="button-interact right">Read</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+	<!--Section where you can put anything end-->
+    <footer>
+	<a href="./product1.html" class="button-interact">Go back to product page</a>
+	<a href="./index.html" class="button-interact">Back to Homepage</a>
+        <div class="container">
+            <div class="col">
+                <h3>The Eternals</h3>
+                <p>The Eternals is a brand new online car rental company established on the mid-term of 2019. The business was started by four person-a,b,c,d. Our journey began when one of our founder Marcus encounter an issue about the inconvenience of renting a car in kuching. An issue has caught his attention and ignite the idea for him to start this business.</p>
+            </div>
+            <div class="col">
+                <h4>Best Showtime! Come visit our link!</h4>
+                <a href="#" class="button-interact">Let us introduce ourselves</a>
+                <a href="#" class="button-interact">Our Enhancements</a>
+            </div>
+            <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.3916572792045!2d110.35503721526996!3d1.5322679613877659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fba70b11e02ce7%3A0x69cbf290cfd24bb7!2sSwinburne%20University%20of%20Technology%20Sarawak%20Campus!5e0!3m2!1sen!2smy!4v1569668038254!5m2!1sen!2smy" id="map" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
