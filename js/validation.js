@@ -30,12 +30,37 @@ function validateForm() {
 
   // Validate Phone Number
   if (!validatePhoneNumber()) {
-    message += "Please enter a valid Email Address (In this Format: xxx-xxxxxx)\n";
+    message += "Please enter a valid Phone Number (In this Format: xxx-xxxxxx)\n";
   }
 
   // Validate Products
-  if (!validateProducts()) {
+  if (!validate(product)) {
     message += "Please select one of the available products\n";
+  }
+
+  // Validate Rental Duration
+  if (!validate(rentalDuration)) {
+    message += "Please state the Rental Duration\n";
+  }
+
+  // Validate Street
+  if (!validate(street)) {
+    message += "Please state Your Street\n";
+  }
+
+  // Validate City
+  if (!validate(city)) {
+    message += "Please states Your City\n";
+  }
+
+  // Validate State
+  if (!validate(state)) {
+    message += "Please insert Your State\n";
+  }
+
+  // Validate Postcode
+  if (!validatePostCode()) {
+    message += "Please insert Your Postcode";
   }
 
 
@@ -71,11 +96,21 @@ function validatePhoneNumber() {
   return true;
 }
 
-function validateProducts() {
-  if (product.value == "") {
+function validate(input) {
+  if (input.value == "") {
     return false;
   }
   return true;
 }
 
-function 
+function validatePostCode() {
+  var pattern = "[0-9]{5}";
+
+  if (postcode.value == "") {
+    return false;
+  } else if (!postcode.value.match(pattern)) {
+    return false;
+  }
+
+  return true;
+}
