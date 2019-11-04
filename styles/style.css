@@ -314,47 +314,47 @@ Marcus Marrio's part end
 	width: 75%;
 	margin: 0 auto;
   }
-  
+
   .heading-1 {
 	font-size: 200%;
 	text-align: center;
 	margin: 1.5rem auto;
   }
-  
+
   .heading-2 {
 	font-size: 170%;
 	text-align: center;
 	color: #4a77df
   }
-  
+
   .welcome-heading {
 	display: inline-block;
 	letter-spacing: 0.15rem;
 	border-bottom: 3px solid #4a77df;
 	color: #4a77df;
   }
-  
+
   .welcome p {
 	margin-top: -0.2rem;
 	font-weight: 300;
   }
-  
+
   .about-p {
 	display: inline-block;
 	text-align: justify;
   }
-  
+
   .section-about img {
 	border: 1px solid #ddd;
 	padding: 5px;
 	margin: auto;
 	border-radius: 100%;
   }
-  
+
   .section-about img:hover {
 	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   }
-  
+
   .section-core {
 	border: 0 solid white;
 	border-radius: 8px;
@@ -363,17 +363,17 @@ Marcus Marrio's part end
 	padding: 24px;
 	margin: 1.5rem 0;
   }
-  
+
   .section-about {
 	background-color: #fff;
 	padding: 1.5rem;
 	margin: 1.5rem auto;
   }
-  
+
   .section-about section {
 	text-align: center;
   }
-  
+
   .team-images {
 	display: block;
 	border-style: groove;
@@ -381,7 +381,7 @@ Marcus Marrio's part end
 	margin: 0 auto;
 	border-radius: 10%;
   }
-  
+
   .table {
 	font-size: 1.1rem;
 	padding: 0;
@@ -389,91 +389,97 @@ Marcus Marrio's part end
 	border-spacing: 2rem;
 	text-align: center;
   }
-  
+
   .table td {
 	margin: 0 10%;
   }
-  
+
   .box {
 	display: inline-block;
 	width: 2.75%;
 	line-height: 1;
   }
-  
+
   .web {
 	background-color: rgb(98,110,123);
   }
-  
+
   .intro {
 	background-color: rgb(25,158,183);
   }
-  
+
   .logic {
 	background-color: rgb(25,158,183);
   }
-  
+
   .network {
 	background-color: rgb(55,153,209);
   }
-  
+
   .business {
 	background-color: #A37BE4;
   }
-  
+
   .project {
 	background-color: #F9604F;
   }
-  
+
   .list-profile {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 	line-height: 2;
   }
-  
+
   .courses {
 	width: 95%;
 	margin: 0 auto;
 	text-align: left;
   }
-  
+
   .courses li {
 	margin-left: 10%;
   }
-  
+
   .table-th {
 	padding-top: 1%;
 	vertical-align: top;
 	font-size: 1.3rem;
   }
-  
+
   .contribution {
 	border-collapse: collapse;
   }
-  
+
   .contribution th, .contribution td {
 	border: 1px solid black;
   }
-  
+
   .contribution th {
 	background-color: #4A77DF;
 	padding-top: 0.75rem;
 	padding-bottom: 0.75rem;
 	width: 34%;
   }
-  
+
   .profile-footer-div {
 	padding: 3%;
   }
-  
+
   .profile-footer {
 	text-align: center;
   }
-  
+
+	.error-box {
+		border: 2px solid red;
+	}
+
+
+
   /******
-  
+
 	This is the end of Bryan's CSS
-  
+
   ******/
 
 /******

@@ -10,17 +10,20 @@ var state = document.querySelector("#select");
 var postcode = document.querySelector("input[name='postcode']");
 
 
+
+
 function validateForm() {
-  var message = "";
 
   // Validate First Name
   if (!validateName(firstName)) {
-    message += "Please enter a valid First Name\n";
+    addErrorClass(firstName);
+    return false;
   }
 
   // Validate Last Name
   if (!validateName(lastName)) {
-    message += "Please enter a valid Last Name\n";
+    addErrorClass(lastName);
+    return false;
   }
 
   // Validate Email
@@ -40,31 +43,29 @@ function validateForm() {
 
   // Validate Rental Duration
   if (!validate(rentalDuration)) {
-    message += "Please state the Rental Duration\n";
+
   }
 
   // Validate Street
   if (!validate(street)) {
-    message += "Please state Your Street\n";
+
   }
 
   // Validate City
   if (!validate(city)) {
-    message += "Please states Your City\n";
+
   }
 
   // Validate State
   if (!validate(state)) {
-    message += "Please insert Your State\n";
+
   }
 
   // Validate Postcode
   if (!validatePostCode()) {
-    message += "Please insert Your Postcode";
+
   }
 
-
-  alert(message);
 }
 
 function validateName(name) {
@@ -113,4 +114,27 @@ function validatePostCode() {
   }
 
   return true;
+}
+
+function addErrorClass(element) {
+  element.classList.add("error-box");
+
+  element.addEventListener("focus", removeClass);
+
+  element.addEventListener("blur", addClass);
+
+  element.addEventListener("change", function() {
+    if (element.value != "") {
+      element.removeEventListener("blur", addClass);
+    }
+  });
+
+}
+
+function addClass() {
+  this.classList.add("error-box");
+}
+
+function removeClass() {
+  this.classList.remove("error-box");
 }
